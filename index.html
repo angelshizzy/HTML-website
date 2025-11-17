@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width= device-width, initial-scale=1"/>
+        <title> My first website</title>
+    </head>
+    <body>
+
+        <!--Header Section-->
+        <header>        
+            <h1>Tralala Beach Resort</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <!--Main Content-->
+        <main>
+            <!--Home Section-->
+            <section id="home">
+
+                <img src="images/img.jpg" alt="Tralala Beach Resort" width="700">
+        
+                <h2>Welcome to Tralala Beach Resort</h2> 
+                <h3>Blockquote Example</h3>
+                <blockquote cite="https://www.vipingoridge.com/">
+                <b>Tralala Beach Resort, sister to Vipingo Ridge</b> <br>
+                "A secure sanctuary of sun, sea, wildlife and adventure, is an extraordinary holiday and lifestyle destination
+                on the Kenya coast. <br> Set in 2,000 acres of diverse habitats and stunning gardens, with an 18-hole
+                PGA championship golf course, this is a truly unique place. <br>
+                Discover a welcoming community, a resort for short or long-term stays and sea view plots for sale. <br> 
+                Come for a day, stay for a lifetime."
+                </blockquote>
+
+                <a href="https://www.vipingoridge.com/" target="_blank" rel="noopener"> Visit us here</a>
+
+            </section>
+
+            <!--About Section-->
+            <section id="about">
+                <h4>Activities to do</h4>
+                <ol>
+                    <li>Paragliding</li>
+                    <li>WaterSurfing</li>
+                    <li>Swimming with Dolphins<i> <b>NB:</b> You have to be a good swimmer</i></li>
+                </ol>
+
+                <h4>What you will need</h4>
+                <ul>
+                    <li>Snorkelling glasses</li>
+                    <li>Flippers</li>
+                    <li>Swimming costume</li>
+                </ul>
+                <P>
+                    We are not <strong><em>liable</em></strong> for any individual accidents that occur
+                </P>
+
+                <!-- Table Section -->
+                <h3>Activity & prices</h3>
+                <p>Here are some activities we offer and there prices:</p>
+
+                <table border="1" cellpadding="6" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Activity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Snorkelling</td>
+                            <td>150 USD</td>
+                        </tr>
+                        <tr>
+                            <td>Surfing</td>
+                            <td>120 USD</td>
+                        </tr>
+                        <tr>
+                            <td>Gliding</td>
+                            <td>180 USD</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <pre>
+                    Roses are red
+                    Violets are blue
+                    You're welcome to stay
+                    For we value you (:-)
+                </pre>
+
+                <h3>Image</h3>
+                <pre><code>&lt;img src="images/ima.jpg" alt="description"&gt;</code></pre>
+
+            </section> 
+
+            <!--Gallery Section-->
+            <section id="gallery">
+                <h4>Our Kite-surfing instructor with a client</h4>
+                <img src="images/ima.jpg" alt="Our Surfing Instructor" width="600">
+            </section>
+
+            <!-- Contact Form -->
+            <section id="contacts">
+                <h2>Contact Form</h2>
+                <p>Use the form below to send a message.</p>
+                <form action="#" method="get">
+                    <label for="name">Name:</label><br>
+                    <input id="name" name="name" type="text" placeholder="Your name"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input id="email" name="email" type="email" placeholder="Your email"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Your message to us..."></textarea><br><br>
+
+                    <label for="staytype">Stay Type:</label><br>
+                    <select id="staytype" name="staytype">
+                    <option value="b&b">Bed&Breakfast</option>
+                    <option value="hb">HalfBoard</option>
+                    <option value="fb">FullBoard</option>
+                    </select><br><br>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <hr>
+
+        <!--Footer section-->
+        <footer>
+            <p>&copy; 2025 My First Website | Created by: Angela Shirao</p>
+        </footer>
+
+    </body>
+</html>
